@@ -1,0 +1,73 @@
+/* Write your CSS here */
+/* index.css */
+
+/* Style the app container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Style the responsive container */
+.responsive-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+/* Style the heading */
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style the notification container */
+.notification {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+/* Style the notification icons */
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Style the message heading */
+.message-heading {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Style different types of notifications */
+.info {
+  color: #007bff; /* Blue color for info */
+}
+
+.warning {
+  color: #ffc107; /* Yellow color for warning */
+}
+
+.error {
+  color: #dc3545; /* Red color for error */
+}
+
+.success {
+  color: #28a745; /* Green color for success */
+}
+
+/* Style the description text */
+.description {
+  margin: 5px 0;
+}
+
+/* You can add more styles as needed */
